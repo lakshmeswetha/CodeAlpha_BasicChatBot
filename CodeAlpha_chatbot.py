@@ -9,7 +9,7 @@ def get_response(user_input):
         return "I'm fine, thanks! How about you?"
 
     elif user_input in ("i'm good", "im good", "fine", "good", "great"):
-        return "That's great to hear! 😊"
+        return "That's great to hear!"
 
     elif user_input in ("what is your name", "what's your name", "who are you"):
         return "I'm a simple chatbot built with Python!"
@@ -18,7 +18,7 @@ def get_response(user_input):
         return "I can chat with you! Try saying hello, ask how I am, or say goodbye."
 
     elif user_input in ("bye", "goodbye", "see you", "exit", "quit"):
-        return "Goodbye! Have a great day! 👋"
+        return "Goodbye! Have a great day!"
 
     else:
         return "Sorry, I didn't understand that. Try: hello, how are you, or bye."
